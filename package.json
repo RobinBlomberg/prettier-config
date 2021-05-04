@@ -1,6 +1,6 @@
 {
   "name": "@robinblomberg/prettier-config",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Robin Blomberg",
   "main": "index.js",
   "repository": {
@@ -14,6 +14,9 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "lint:fix": "eslint **/*.js --fix"
+  },
+  "dependencies": {
+    "prettier": "^2.2.1"
   },
   "devDependencies": {
     "@robinblomberg/eslint-config-robinblomberg": "^0.5.0",
