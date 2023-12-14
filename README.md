@@ -1,16 +1,16 @@
-# Prettier Config
+# Prettier config
 
 ## Installation
 
-```
-npm install --save-dev @robinblomberg/prettier-config
+```sh
+npm install -D @robinblomberg/prettier-config
 ```
 
 ## Configuration
 
 Create a file called **.eslintrc.js** at the project root:
 
-```javascript
+```js
 module.exports = {
   extends: '@robinblomberg/robinblomberg'
 }
@@ -32,7 +32,7 @@ Adjust the paths according to your project/file structure as necessary.
 
 To run a script, enter the following in your command line:
 
-```
+```sh
 npm run format:scripts
 ```
 
