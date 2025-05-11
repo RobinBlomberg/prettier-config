@@ -1,8 +1,8 @@
 {
   "name": "@robinblomberg/prettier-config",
-  "version": "0.2.0-beta1",
+  "version": "0.2.0",
   "author": "Robin Blomberg",
-  "main": "index.js",
+  "main": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobinBlomberg/prettier-config.git"
@@ -16,12 +16,12 @@
     "lint:fix": "eslint **/*.js --fix"
   },
   "dependencies": {
-    "prettier": "^2.8.0"
+    "prettier": "^3.5.3"
   },
   "devDependencies": {
-    "@robinblomberg/eslint-config-robinblomberg": "^0.13.0-beta1",
-    "eslint": "^8.29.0",
-    "husky": "^5.1.3",
-    "lint-staged": "^13.1.0"
+    "@robinblomberg/eslint-config-robinblomberg": "^0.28.0",
+    "eslint": "^8.57.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.0.0"
   }
 }
